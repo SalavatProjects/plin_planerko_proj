@@ -6,6 +6,7 @@ plugins {
 }
 
 android {
+    compileSdkVersion 33
     namespace = "com.example.plin_planerko_proj"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
