@@ -815,9 +815,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   );
                 } else {
-                  return Center(
-                    child: Text('No tasks for this day', style: AppStyles.quicksandW500lightGray(18.sp),),
-                  );
+                  return Center(child: Text('No tasks for this day', style: AppStyles.quicksandW500lightGray(18.sp),));
                 }
               },
             )
